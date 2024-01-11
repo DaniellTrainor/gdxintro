@@ -73,7 +73,6 @@ public class AppHandler extends ApplicationAdapter {
 
 		x = Gdx.input.getX() - img.getWidth() / 2;
 		y = Gdx.graphics.getHeight() - Gdx.input.getY() - img.getHeight() / 2;
-		@Override
 
 		if(x < (Gdx.input.getX() - img.getWidth() / 2)) {
 			x += 2;
